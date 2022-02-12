@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", "sans-serif";
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0.7rem 0;
+}
+
+p {
+  margin: 0.7rem;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 69rem;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 2.3rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #db7373;
+  color: #fff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 2px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.card {
+  color: #333;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1.4rem;
+  margin: 0.7rem;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #fff;
+  height: 4.4rem;
+  border-bottom: 1px solid #333;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-weight: 600;
+}
+
+.navbar .container ul {
+  display: flex;
+}
+
+.navbar .container ul li {
+  margin-right: 1.4rem;
+}
+
+.navbar .container ul li:hover {
+  border-bottom: 2px #333 solid;
+}
+
+/* Showcase */
+
+.showcase {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background: url("https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg")
+    no-repeat center center/cover;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.showcase-content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 2;
+  color: #fff;
+  padding: 4rem 0 22rem;
+}
+
+/* About showcase */
+
+.about-showcase {
+  padding: 2rem;
+  height: 75vh;
+}
+
+.about-showcase .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.about-showcase-text h1 {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.about-showcase-text ul li {
+  padding: 0 0 0.5rem 2rem;
+}
+
+.about-showcase-img img {
+  border-radius: 3px;
+  width: 450px;
+}
+
+.lower-about-showcase {
+  padding: 2rem;
+}
+
+.lower-about-showcase .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.lower-about-showcase-text {
+  margin: 20px o;
+  padding-left: 1rem;
+}
+
+.lower-about-showcase-text p {
+  line-height: 1.9;
+  padding-bottom: 2rem;
+}
+
+.lower-about-showcase-img img {
+  border-radius: 3px;
+  width: 450px;
+}
+
+/* Footer */
+
+.footer {
+  background: #333;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer .container {
+  padding: 2rem 0;
+}
+
+.footer h1 {
+  font-size: 1.5rem;
+}
+
+.footer ul li {
+  margin: 0 0 10px;
+}
+
+.footer ul li:hover {
+  font-size: 1.1rem;
+}
+
+.footer i {
+  margin: 0 8px 0;
+}
+
+.footer h1,
+.footer p,
+.footer a,
+.footer i {
+  color: #fff;
+}
