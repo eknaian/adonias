@@ -124,7 +124,12 @@ img {
   font-weight: 500;
   line-height: 2;
   color: #fff;
-  padding: 4rem 0 22rem;
+  padding-top: 3rem;
+}
+
+.showcase-content .btn {
+  position: absolute;
+  bottom: 4rem;
 }
 
 /* About showcase */
@@ -180,6 +185,68 @@ img {
 .lower-about-showcase-img img {
   border-radius: 3px;
   width: 450px;
+}
+
+/* Contact */
+
+.contact-showcase {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.contact-showcase .container {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  margin-top: 4.3rem;
+  height: 21.875rem;
+  width: 25rem;
+  padding: 2.8rem;
+}
+
+.contact-form .form-control {
+  margin: 2rem 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus {
+  outline: none;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.contact-text p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+input.btn {
+  margin-top: 1.5rem;
 }
 
 /* Footer */
