@@ -61,6 +61,11 @@ img {
   opacity: 0.9;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Navbar */
 
 .navbar {
@@ -137,7 +142,7 @@ img {
 }
 
 .about-showcase-text h1 {
-  padding: 1rem;
+  padding: 1rem 1rem 2.4rem;
   font-weight: 400;
   font-size: 3rem;
 }
@@ -165,6 +170,12 @@ img {
 .lower-about-showcase-text {
   margin: 20px o;
   padding-left: 1rem;
+}
+
+.lower-about-showcase-text h1 {
+  padding: 1rem 1rem 2.4rem;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 .lower-about-showcase-text p {
