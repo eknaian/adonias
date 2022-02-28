@@ -10,6 +10,8 @@ body {
   font-family: "Montserrat", "sans-serif";
   color: #333;
   line-height: 1.6;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 ul {
