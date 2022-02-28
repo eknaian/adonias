@@ -46,7 +46,7 @@ img {
 }
 
 .btn {
-  /* display: inline-block; */
+  display: inline-block;
   background: #db7373;
   color: #fff;
   padding: 0.4rem 1.3rem;
@@ -289,12 +289,16 @@ input.btn {
   margin: 0 0 10px;
 }
 
-.footer ul li:hover {
-  font-size: 1.1rem;
+.footer ul li a:hover {
+  color: #db7373;
 }
 
 .footer i {
   margin: 0 8px 0;
+}
+
+.footer i:hover {
+  color: #db7373;
 }
 
 .footer h1,
