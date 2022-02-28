@@ -307,6 +307,25 @@ input.btn {
 /* Media Queries */
 
 @media (max-width: 768px) {
+  .footer .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer .social a i {
+    padding-bottom: 1rem;
+  }
+  .contact-showcase h1 {
+    font-size: 3rem;
+    font-weight: 550;
+  }
+  .showcase-content h1 {
+    padding-top: 1rem;
+    font-size: 2.3rem;
+    font-weight: 450;
+  }
   .about-showcase .container,
   .lower-about-showcase .container,
   .contact-showcase .container {
@@ -356,5 +375,6 @@ input.btn {
     position: relative;
     left: 0.8rem;
     width: 90%;
+    align-self: center;
   }
 }
