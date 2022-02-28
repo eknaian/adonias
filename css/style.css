@@ -315,7 +315,7 @@ input.btn {
   }
 
   .footer .social a i {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   .contact-showcase h1 {
     font-size: 3rem;
@@ -352,7 +352,8 @@ input.btn {
     padding-bottom: 2rem;
   }
   .footer {
-    margin-top: 15rem;
+    padding-top: 1rem;
+    margin-top: 6rem;
   }
 
   .navbar .logo {
