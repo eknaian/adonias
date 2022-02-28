@@ -268,7 +268,7 @@ input.btn {
 /* Footer */
 
 .footer {
-  max-height: 30rem;
+  max-height: auto;
   background: #333;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -357,7 +357,7 @@ input.btn {
   }
   .footer {
     padding-top: 1rem;
-    margin-top: 6rem;
+    margin-top: 9rem;
   }
 
   .navbar .logo {
