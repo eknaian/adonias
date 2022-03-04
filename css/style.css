@@ -110,6 +110,9 @@ img {
     no-repeat center center/cover;
 }
 
+.showcase-img {
+}
+
 .showcase-content {
   display: flex;
   flex-direction: column;
@@ -205,10 +208,25 @@ img {
   left: 5rem;
 }
 
+.card-grey {
+  color: #333;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1.4rem;
+  margin: 0.7rem;
+  position: relative;
+  left: 0.8rem;
+  width: 90%;
+  align-self: center;
+}
+
 .contact-showcase {
   width: 100%;
   height: 90vh;
   position: relative;
+  background: url("https://images.unsplash.com/photo-1490735891913-40897cdaafd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80")
+    no-repeat center center/cover;
 }
 
 .contact-showcase .container {
